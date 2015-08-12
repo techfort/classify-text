@@ -1,0 +1,54 @@
+{
+  "name": "brain",
+  "description": "Neural network library",
+  "version": "0.7.0",
+  "author": {
+    "name": "Heather Arthur",
+    "email": "fayearthur@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/harthur/brain.git"
+  },
+  "main": "./lib/brain",
+  "dependencies": {
+    "underscore": ">=1.5.1",
+    "inherits": "~2.0.1"
+  },
+  "devDependencies": {
+    "mocha": ">=1.0.0",
+    "canvas": ">=0.10.0",
+    "grunt": "~0.4.3",
+    "grunt-contrib-uglify": "~0.2.0",
+    "browserify": "~3.32.0"
+  },
+  "keywords": [
+    "neural network",
+    "classifier",
+    "machine learning"
+  ],
+  "bugs": {
+    "url": "https://github.com/harthur/brain/issues"
+  },
+  "homepage": "https://github.com/harthur/brain",
+  "_id": "brain@0.7.0",
+  "dist": {
+    "shasum": "a6d0718c064a9d50d9bff39f38557b6b94d4466c",
+    "tarball": "http://registry.npmjs.org/brain/-/brain-0.7.0.tgz"
+  },
+  "_from": "brain@*",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "harth",
+    "email": "fayearthur@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "harth",
+      "email": "fayearthur@gmail.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "a6d0718c064a9d50d9bff39f38557b6b94d4466c",
+  "_resolved": "https://registry.npmjs.org/brain/-/brain-0.7.0.tgz"
+}

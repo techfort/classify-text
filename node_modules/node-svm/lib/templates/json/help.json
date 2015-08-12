@@ -1,0 +1,37 @@
+{
+    "usage": [
+        "<command> [<args>] [<options>]"
+    ],
+    "commands": {
+        "help":            "Display help information about node-svm",
+        "train":           "Train a new model with given data set",
+        "evaluate":        "Evaluate model's accuracy against a given test set"
+    },
+    "options": [
+        {
+            "shorthand":   "-s",
+            "flag":        "--silent",
+            "description": "Do not output anything, besides errors"
+        },
+        {
+            "shorthand":   "-q",
+            "flag":        "--quiet",
+            "description": "Only output important information"
+        },
+        {
+            "shorthand":   "-V",
+            "flag":        "--verbose",
+            "description": "Makes output more verbose"
+        },
+        {
+            "shorthand":   "-v",
+            "flag":        "--version",
+            "description": "Output node-svm version"
+        },
+        {
+            "shorthand":   "-h",
+            "flag":        "--help",
+            "description": "Display more information about a specific command"
+        }
+    ]
+}
